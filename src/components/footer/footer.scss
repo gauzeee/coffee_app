@@ -1,0 +1,52 @@
+footer {
+    margin-top: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #fff;
+}
+
+
+.footer-link {
+    color: #000;
+    font-size: 12px;
+    margin-right: 40px;
+    text-align: center;
+}
+
+.footer-logo {
+    svg {
+        path {
+            fill: #000;
+        }
+    }
+}
+
+.footer-seeds-block {
+    margin-top: 30px;
+
+    hr {
+        width: 60px;
+        color: #000;
+        display: inline-block;
+        margin-right: 25px;
+        margin-left: 25px;
+        outline: none;
+        border: none;
+        height: 1px;
+        background-color: #000;
+        vertical-align: middle;
+    }
+}
+
+.footer__seeds {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    vertical-align: middle;
+
+    svg {
+        path {
+            fill: #000;
+        }
+    }
+}
