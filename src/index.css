@@ -4,7 +4,6 @@ body {
   font-family: "Merienda", cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url('./images/Main-bg.png') top /100% no-repeat;
 }
 
 code {

@@ -1,0 +1,52 @@
+.white__seeds {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    vertical-align: middle;
+}
+
+
+.white-seeds-block {
+    hr {
+        width: 60px;
+        color: #fff;
+        display: inline-block;
+        margin-right: 25px;
+        margin-left: 25px;
+        outline: none;
+        border: none;
+        height: 1px;
+        background-color: #fff;
+        vertical-align: middle;
+    }
+}
+
+.black-seeds-block {
+    margin-top: 30px;
+
+    hr {
+        width: 60px;
+        color: #000;
+        display: inline-block;
+        margin-right: 25px;
+        margin-left: 25px;
+        outline: none;
+        border: none;
+        height: 1px;
+        background-color: #000;
+        vertical-align: middle;
+    }
+}
+
+.black__seeds {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    vertical-align: middle;
+
+    svg {
+        path {
+            fill: #000;
+        }
+    }
+}

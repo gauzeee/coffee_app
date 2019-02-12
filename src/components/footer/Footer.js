@@ -2,13 +2,13 @@ import React, { Component } from "react";
 import logo from "../../images/logo.svg";
 import { Link } from "react-router-dom";
 import InlineSVG from "svg-inline-react";
-import seeds from "../../images/seeds.svg";
+import Separator from "../separator";
 
 class Footer extends Component {
   render() {
     return (
       <footer className="footer">
-        <Link className="footer-link" exact to="/">
+        <Link className="footer-link" to="/">
           <InlineSVG className="logo footer-logo" src={logo} /> Coffee house
         </Link>
         <Link className="footer-link" to="/coffee">
@@ -17,11 +17,7 @@ class Footer extends Component {
         <Link className="footer-link" to="/pleasure">
           For Your Pleasure
         </Link>
-        <div className="footer-seeds-block">
-          <hr />
-          <InlineSVG className="footer__seeds" src={seeds} />
-          <hr />
-        </div>
+        <Separator light="black" />
       </footer>
     );
   }

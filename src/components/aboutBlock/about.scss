@@ -1,0 +1,35 @@
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 520px;
+
+    &-content {
+        text-align: center;
+    }
+
+    &-image {
+        width: auto;
+    }
+
+    &-hr {
+        width: 240px;
+        color: #000;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        outline: none;
+        border: 1 px solid #000 !important;
+    }
+
+}
+
+.image {
+    max-width: 346px;
+    margin-left: 50px;
+}
+
+.no-image {
+    max-width: 589px;
+    text-align: center;
+}

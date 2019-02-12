@@ -7,7 +7,7 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <Link className="header-link" exact to="/">
+        <Link className="header-link" to="/">
           <InlineSVG className="logo header-logo" src={logo} />
           Coffee house
         </Link>
