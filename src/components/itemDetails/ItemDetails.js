@@ -6,15 +6,15 @@ import ErrorMessage from "../errorMessage";
 class ItemDetails extends Component {
   state = {
     item: null,
-    loading: true
+    loading: true,
+    error: false
   };
 
   componentDidMount() {
     const { item } = this.props.location.state;
     this.setState({
       item,
-      loading: false,
-      error: true
+      loading: false
     });
   }
 
