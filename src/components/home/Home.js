@@ -3,9 +3,21 @@ import { Link } from "react-router-dom";
 import Separator from "../separator";
 import AboutBlock from "../aboutBlock";
 import ItemsList from "../itemsList";
+import ErrorMessage from "../errorMessage";
 
 class Home extends Component {
+  state = {
+    error: false
+  };
+
+  componentDidCatch() {
+    this.setState({
+      error: true
+    });
+  }
+
   render() {
+    if (this.state.error) return <ErrorMessage />;
     return (
       <>
         <div className="main">
@@ -34,7 +46,10 @@ recommend. Did even but nor are most gave hope. Secure active living depend son
 repair day ladies now."
           image=""
         />
-        <ItemsList url="bestsellers" />
+        <div className="our-best-block">
+          <h3>Our best</h3>
+          <ItemsList className="main__list" url="bestsellers" linkable />
+        </div>
       </>
     );
   }

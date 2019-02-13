@@ -1,0 +1,51 @@
+.list-items {
+    display: flex;
+    justify-content: center;
+}
+
+
+.item-card {
+    width: 240px;
+    height: 220px;
+    margin-left: 35px;
+    margin-right: 35px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    background: rgba(255, 255, 255, 0.65);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    transition: background 0.3s;
+
+    &:hover {
+        background: rgba(255, 255, 255, 0.9);
+    }
+
+    p {
+        margin: 0;
+    }
+
+    img {
+        height: 60%;
+        margin-bottom: 10px;
+        margin-top: auto;
+    }
+
+    .price {
+        text-align: right;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: 22px;
+    }
+
+    .country {
+        margin-top: 14px;
+        margin-left: auto;
+        margin-right: 22px;
+    }
+
+}

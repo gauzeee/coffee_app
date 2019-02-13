@@ -3,3 +3,26 @@
     background: url('../../images/our-coffee-bg.png') top /cover no-repeat;
     padding-bottom: 70px;
 }
+
+.coffee-list {
+    min-height: 580px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+
+    .list-items {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .item-card {
+        background-color: #fff;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
+        height: 260px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 32px;
+    }
+}

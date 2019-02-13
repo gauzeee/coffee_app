@@ -1,9 +1,21 @@
 import React, { Component } from "react";
 import Separator from "../separator";
+import ErrorMessage from "../errorMessage";
 
 class aboutBlock extends Component {
+  state = {
+    error: false
+  };
+
+  componentDidCatch() {
+    this.setState({
+      error: true
+    });
+  }
+
   render() {
-    const { image, title, text } = this.props;
+    if (this.state.error) return <ErrorMessage />;
+    const { image, title, text, hr } = this.props;
     const subClass = image ? "image" : "no-image";
     const Image = ({ image }) => {
       return (
@@ -13,17 +25,24 @@ class aboutBlock extends Component {
       );
     };
 
+    const Hr = () => {
+      return hr ? <hr className="about-hr" /> : null;
+    };
+
     const LSide = image ? <Image image={image} /> : null;
 
     return (
-      <div className="about">
-        {LSide}
-        <div className={`about-content ${subClass}`}>
-          <h3 className="about-title">{title}</h3>
-          <Separator light="black" />
-          <p className="about-text">{text}</p>
+      <>
+        <div className="about">
+          {LSide}
+          <div className={`about-content ${subClass}`}>
+            <h3 className="about-title">{title}</h3>
+            <Separator light="black" />
+            <p className="about-text">{text}</p>
+          </div>
         </div>
-      </div>
+        <Hr />
+      </>
     );
   }
 }

@@ -1,0 +1,51 @@
+.item {
+    &-info {
+        display: flex;
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        min-height: 455px;
+        align-items: center;
+    }
+
+    &-image {
+        width: 50%;
+        text-align: right;
+        margin-right: 42px;
+
+        img {
+            width: 70%;
+        }
+    }
+
+    &-details {
+        width: 50%;
+
+        .item-country {
+            margin-top: 40px;
+        }
+
+        p {
+            font-size: 14px;
+            text-align: left;
+            color: #000000;
+            margin-top: 16px;
+            margin-bottom: 16px;
+
+            .type {
+                font-weight: bold;
+                margin-right: 8px;
+            }
+        }
+    }
+
+    &-price {
+        .type {
+            font-size: 16px;
+        }
+
+        .value {
+            font-size: 20px;
+        }
+    }
+}
