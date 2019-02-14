@@ -1,8 +1,9 @@
 .search {
     display: flex;
     max-width: 800px;
-    margin: 50px auto;
+    margin: 50px auto 20px auto;
     height: 30px;
+    justify-content: center;
 
     span {
         margin-right: 20px;
@@ -68,4 +69,8 @@
     &-input-field {
         margin-right: 80px;
     }
+}
+
+.active {
+    background-color: rgba(0, 145, 87, 0.25) !important;
 }

@@ -1,16 +1,20 @@
+//const data = require("./db.jsondb.json");
+
 export default class GetService {
   constructor(props) {
-    this._apiBase = "http://localhost:3001/";
+    this._apiBase = "db.json";
   }
 
   async getResource(url) {
-    const res = await fetch(`${this._apiBase}${url}`);
+    const res = await fetch(`${this._apiBase}`);
 
     if (!res.ok) {
       throw new Error(`Could not fetch ${url}, received ${res.status}`);
     }
 
-    return await res.json();
+    return await res.json().then(res => {
+      return res[url];
+    });
   }
 
   getAllItems = async item_type => {

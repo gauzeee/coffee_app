@@ -4,7 +4,6 @@ import AboutBlock from "../aboutBlock";
 import ItemDetails from "../itemDetails";
 import { Switch, Route } from "react-router-dom";
 import ItemsList from "../itemsList";
-import SearchPanel from "../searchPanel";
 import ErrorMessage from "../errorMessage";
 
 const CoffeeSwitch = () => (
@@ -54,9 +53,8 @@ class OurCoffee extends Component {
       if (this.checkLocation()) {
         return (
           <>
-            <SearchPanel />
             <div className="coffee-list">
-              <ItemsList url="coffee" linkable />
+              <ItemsList url="coffee" linkable search />
             </div>
           </>
         );
