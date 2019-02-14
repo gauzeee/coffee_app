@@ -1,0 +1,690 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing itemDetails Snap and state ItemDetails has rendered correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ItemDetails
+    location={
+      Object {
+        "state": Object {
+          "item": Object {
+            "name": "Test",
+          },
+        },
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="item-image"
+        >
+          <img
+            alt=""
+          />
+        </div>,
+        <div
+          className="item-details"
+        >
+          <h3>
+            Test
+          </h3>
+          <Separator
+            light="black"
+          />
+          <p
+            className="item-country"
+          >
+            <span
+              className="type"
+            >
+              Country:
+            </span>
+            <span
+              className="value"
+            >
+              We don\`t know about it...
+            </span>
+          </p>
+          <p
+            className="item-desc"
+          >
+            <span
+              className="type"
+            >
+              Description:
+            </span>
+            <span
+              className="value"
+            >
+              Coming soon!
+            </span>
+          </p>
+          <p
+            className="item-price"
+          >
+            <span
+              className="type"
+            >
+              Price:
+            </span>
+            <span
+              className="value"
+            />
+          </p>
+        </div>,
+      ],
+      "className": "item-info",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <img
+            alt=""
+          />,
+          "className": "item-image",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "",
+            "src": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h3>
+              Test
+            </h3>,
+            <Separator
+              light="black"
+            />,
+            <p
+              className="item-country"
+            >
+              <span
+                className="type"
+              >
+                Country:
+              </span>
+              <span
+                className="value"
+              >
+                We don\`t know about it...
+              </span>
+            </p>,
+            <p
+              className="item-desc"
+            >
+              <span
+                className="type"
+              >
+                Description:
+              </span>
+              <span
+                className="value"
+              >
+                Coming soon!
+              </span>
+            </p>,
+            <p
+              className="item-price"
+            >
+              <span
+                className="type"
+              >
+                Price:
+              </span>
+              <span
+                className="value"
+              />
+            </p>,
+          ],
+          "className": "item-details",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Test",
+            },
+            "ref": null,
+            "rendered": "Test",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "light": "black",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span
+                  className="type"
+                >
+                  Country:
+                </span>,
+                <span
+                  className="value"
+                >
+                  We don\`t know about it...
+                </span>,
+              ],
+              "className": "item-country",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Country:",
+                  "className": "type",
+                },
+                "ref": null,
+                "rendered": "Country:",
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "We don\`t know about it...",
+                  "className": "value",
+                },
+                "ref": null,
+                "rendered": "We don\`t know about it...",
+                "type": "span",
+              },
+            ],
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span
+                  className="type"
+                >
+                  Description:
+                </span>,
+                <span
+                  className="value"
+                >
+                  Coming soon!
+                </span>,
+              ],
+              "className": "item-desc",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Description:",
+                  "className": "type",
+                },
+                "ref": null,
+                "rendered": "Description:",
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Coming soon!",
+                  "className": "value",
+                },
+                "ref": null,
+                "rendered": "Coming soon!",
+                "type": "span",
+              },
+            ],
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span
+                  className="type"
+                >
+                  Price:
+                </span>,
+                <span
+                  className="value"
+                />,
+              ],
+              "className": "item-price",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Price:",
+                  "className": "type",
+                },
+                "ref": null,
+                "rendered": "Price:",
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": undefined,
+                  "className": "value",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "span",
+              },
+            ],
+            "type": "p",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="item-image"
+          >
+            <img
+              alt=""
+            />
+          </div>,
+          <div
+            className="item-details"
+          >
+            <h3>
+              Test
+            </h3>
+            <Separator
+              light="black"
+            />
+            <p
+              className="item-country"
+            >
+              <span
+                className="type"
+              >
+                Country:
+              </span>
+              <span
+                className="value"
+              >
+                We don\`t know about it...
+              </span>
+            </p>
+            <p
+              className="item-desc"
+            >
+              <span
+                className="type"
+              >
+                Description:
+              </span>
+              <span
+                className="value"
+              >
+                Coming soon!
+              </span>
+            </p>
+            <p
+              className="item-price"
+            >
+              <span
+                className="type"
+              >
+                Price:
+              </span>
+              <span
+                className="value"
+              />
+            </p>
+          </div>,
+        ],
+        "className": "item-info",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <img
+              alt=""
+            />,
+            "className": "item-image",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "",
+              "src": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h3>
+                Test
+              </h3>,
+              <Separator
+                light="black"
+              />,
+              <p
+                className="item-country"
+              >
+                <span
+                  className="type"
+                >
+                  Country:
+                </span>
+                <span
+                  className="value"
+                >
+                  We don\`t know about it...
+                </span>
+              </p>,
+              <p
+                className="item-desc"
+              >
+                <span
+                  className="type"
+                >
+                  Description:
+                </span>
+                <span
+                  className="value"
+                >
+                  Coming soon!
+                </span>
+              </p>,
+              <p
+                className="item-price"
+              >
+                <span
+                  className="type"
+                >
+                  Price:
+                </span>
+                <span
+                  className="value"
+                />
+              </p>,
+            ],
+            "className": "item-details",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Test",
+              },
+              "ref": null,
+              "rendered": "Test",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "light": "black",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="type"
+                  >
+                    Country:
+                  </span>,
+                  <span
+                    className="value"
+                  >
+                    We don\`t know about it...
+                  </span>,
+                ],
+                "className": "item-country",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Country:",
+                    "className": "type",
+                  },
+                  "ref": null,
+                  "rendered": "Country:",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "We don\`t know about it...",
+                    "className": "value",
+                  },
+                  "ref": null,
+                  "rendered": "We don\`t know about it...",
+                  "type": "span",
+                },
+              ],
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="type"
+                  >
+                    Description:
+                  </span>,
+                  <span
+                    className="value"
+                  >
+                    Coming soon!
+                  </span>,
+                ],
+                "className": "item-desc",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Description:",
+                    "className": "type",
+                  },
+                  "ref": null,
+                  "rendered": "Description:",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Coming soon!",
+                    "className": "value",
+                  },
+                  "ref": null,
+                  "rendered": "Coming soon!",
+                  "type": "span",
+                },
+              ],
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="type"
+                  >
+                    Price:
+                  </span>,
+                  <span
+                    className="value"
+                  />,
+                ],
+                "className": "item-price",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Price:",
+                    "className": "type",
+                  },
+                  "ref": null,
+                  "rendered": "Price:",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": undefined,
+                    "className": "value",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "span",
+                },
+              ],
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

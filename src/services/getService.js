@@ -1,5 +1,3 @@
-//const data = require("./db.jsondb.json");
-
 export default class GetService {
   constructor(props) {
     this._apiBase = "db.json";

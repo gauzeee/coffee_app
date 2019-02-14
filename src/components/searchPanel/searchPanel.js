@@ -7,10 +7,9 @@ class SearchPanel extends Component {
 
   updateSearch = e => {
     const text = e.target.value;
-    console.log(text);
-    // this.setState({
-    //   searchText: text
-    // });
+    this.setState({
+      searchText: text
+    });
     this.props.updateSearch(text);
   };
 

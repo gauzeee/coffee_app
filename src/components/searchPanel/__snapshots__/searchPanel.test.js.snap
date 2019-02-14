@@ -1,0 +1,389 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing SearchPanel Testing SearchPanel snap and state SearchPanel have rendered correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SearchPanel
+    updateFilter={[MockFunction]}
+    updateSearch={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="search-input-field"
+        >
+          <span>
+            Looking for
+          </span>
+          <input
+            onInput={[Function]}
+            placeholder="start typing here..."
+            type="text"
+          />
+        </div>,
+        <div
+          className="search-filters"
+        >
+          <span>
+            Or filter
+          </span>
+          <button
+            onClick={[Function]}
+          >
+            Brazil
+          </button>
+          <button
+            onClick={[Function]}
+          >
+            Kenya
+          </button>
+          <button
+            onClick={[Function]}
+          >
+            Columbia
+          </button>
+        </div>,
+      ],
+      "className": "search",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span>
+              Looking for
+            </span>,
+            <input
+              onInput={[Function]}
+              placeholder="start typing here..."
+              type="text"
+            />,
+          ],
+          "className": "search-input-field",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Looking for",
+            },
+            "ref": null,
+            "rendered": "Looking for",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "onInput": [Function],
+              "placeholder": "start typing here...",
+              "type": "text",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span>
+              Or filter
+            </span>,
+            <button
+              onClick={[Function]}
+            >
+              Brazil
+            </button>,
+            <button
+              onClick={[Function]}
+            >
+              Kenya
+            </button>,
+            <button
+              onClick={[Function]}
+            >
+              Columbia
+            </button>,
+          ],
+          "className": "search-filters",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Or filter",
+            },
+            "ref": null,
+            "rendered": "Or filter",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Brazil",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Brazil",
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Kenya",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Kenya",
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Columbia",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Columbia",
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="search-input-field"
+          >
+            <span>
+              Looking for
+            </span>
+            <input
+              onInput={[Function]}
+              placeholder="start typing here..."
+              type="text"
+            />
+          </div>,
+          <div
+            className="search-filters"
+          >
+            <span>
+              Or filter
+            </span>
+            <button
+              onClick={[Function]}
+            >
+              Brazil
+            </button>
+            <button
+              onClick={[Function]}
+            >
+              Kenya
+            </button>
+            <button
+              onClick={[Function]}
+            >
+              Columbia
+            </button>
+          </div>,
+        ],
+        "className": "search",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span>
+                Looking for
+              </span>,
+              <input
+                onInput={[Function]}
+                placeholder="start typing here..."
+                type="text"
+              />,
+            ],
+            "className": "search-input-field",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Looking for",
+              },
+              "ref": null,
+              "rendered": "Looking for",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onInput": [Function],
+                "placeholder": "start typing here...",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span>
+                Or filter
+              </span>,
+              <button
+                onClick={[Function]}
+              >
+                Brazil
+              </button>,
+              <button
+                onClick={[Function]}
+              >
+                Kenya
+              </button>,
+              <button
+                onClick={[Function]}
+              >
+                Columbia
+              </button>,
+            ],
+            "className": "search-filters",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Or filter",
+              },
+              "ref": null,
+              "rendered": "Or filter",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Brazil",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Brazil",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Kenya",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Kenya",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Columbia",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Columbia",
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
